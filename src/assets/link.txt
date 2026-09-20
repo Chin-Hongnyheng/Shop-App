@@ -1,1 +1,3 @@
 https://github.com/Chin-Hongnyheng/Shop-App.git
+
+Without the debounce cleanup, old timers continue running in the background on every keystroke, causing stale values to overwrite newer ones and triggering memory leak warnings from state updates on unmounted components.Without the debounce cleanup, old timers continue running in the background on every keystroke, causing stale values to overwrite newer ones and triggering memory leak warnings from state updates on unmounted components.
